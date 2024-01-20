@@ -1,5 +1,5 @@
 <?php
-define("DEFAULT_TIMEZONE", ""); // set php date functions timezone
+define("DEFAULT_TIMEZONE", ""); // set date functions timezone
 define("DEVELOPMENT_MODE" , false);// set to false when in production
 
 // return full path of application directory
