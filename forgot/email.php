@@ -20,11 +20,11 @@ function sendEmail($name, $email, $subject, $message){
  
     //Server settings
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'mail.tbglivery.online';                     //Set the SMTP server to send through
+    $mail->Host       = 'mail.tbg.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'noreply@tbglivery.online';                     //SMTP username
-    $mail->Password   = 'Milango88@';                               //SMTP password
-    $mail->SMTPSecure = 'tls';            //Enable implicit TLS encryption
+    $mail->Username   = 'reset@tbg.com';                     //SMTP username
+    $mail->Password   = 'abcd23fsfh';                               //SMTP password
+    $mail->SMTPSecure = 'ssl';            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
